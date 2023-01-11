@@ -303,7 +303,7 @@ body{
 
 width: 100%;
 position: fixed;
-height: 70px;
+height: 130px;
 display: block;
 background-color: #ffffff;
 top: 0px;
@@ -315,6 +315,7 @@ z-index: 1;
 
     position: fixed;
     top: 0px;
+    /* height: 70px; */
     display: inline-block;
     /* align-items: center; */
     /* vertical-align: baseline; */
@@ -342,7 +343,7 @@ z-index: 1;
 
     display: inline-block;
     list-style: none;
-    margin-top: 0px;
+    margin-top: -15px;
     align-items: center;
     vertical-align: middle;
 
@@ -379,8 +380,9 @@ z-index: 1;
 #firstnav{
 
     display: inline-block;
-    position: fixed;
+    /* position: fixed; */
     top: 3px;
+    margin-top: 5px;
     width: 500px;
 
 }
@@ -526,17 +528,20 @@ z-index: 1;
 
 #lowernav{
 
-    position: sticky;
+    /* position: fixed; */
     left: 0px;
     width: 100%;
+    /* height: 50%; */
+    margin-top: 50px;
     display: block;
     height: 50px;
     /* background-color: #727f6a; */
     float: none;
-    top: 65px;
+    /* top: 65px; */
     background-color: #ffffff;
+    padding: 5px;
 
-    z-index: 1;
+    /* z-index: 1; */
 
 }
 
@@ -544,7 +549,9 @@ z-index: 1;
 
     display: block;
     left: 0px;
-    position: absolute;
+    /* margin: 10px; */
+    /* margin-top: 30px; */
+    /* position: relative; */
 
 
 }
@@ -610,8 +617,8 @@ z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: absolute;
     left: -145%;
-    z-index: -1;
-    top: 80px;
+    z-index: 1;
+    top: 40px;
 
   }
 
@@ -725,7 +732,7 @@ z-index: 1;
     margin: auto;
     /* background-color: yellow; */
     position: relative;
-    top: 40px;
+    top: 135px;
     display: grid;
     /* z-index: -1; */
 

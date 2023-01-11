@@ -610,8 +610,8 @@ z-index: 1;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     position: absolute;
     left: -145%;
-    z-index: -1;
-    top: 80px;
+    z-index: 1;
+    top: 40px;
 
   }
 
@@ -724,7 +724,7 @@ z-index: 1;
     width: 60%;
     margin: auto;
     /* background-color: yellow; */
-    position: relative;
+    /* position: relative; */
     top: 40px;
     display: grid;
     /* z-index: -1; */
@@ -754,7 +754,7 @@ z-index: 1;
     width: 35%;
     display: inline-block;
     float: right;
-    position: relative;
+    /* position: relative; */
     right: 10px;
     top: 30px;
 
